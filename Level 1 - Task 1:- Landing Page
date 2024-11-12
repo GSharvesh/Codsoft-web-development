@@ -1,0 +1,186 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Personal Portfolio
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+        }
+  </style>
+ </head>
+ <body class="bg-gray-100 text-gray-800">
+    <div class="bg-white flex items-center justify-center py-2">
+        <div class="text-2xl bg-blue-800 px-5 py-2 rounded-md text-white text-center w-fit">Portfolio</div>
+    </div>
+
+  <section class="bg-white py-0 px-10 ">
+   <div class="container mx-auto flex items-center justify-center flex-col gap-4">
+    <img alt="A professional headshot of yourself" class="rounded-full w-48 h-48 md:w-64 md:h-64 mb-6 md:mb-0 md:mr-6 shadow-xl" height="300" src="https://img.freepik.com/premium-vector/man-sits-desk-with-laptop-plant-background_1013341-201141.jpg" width="300"/>
+    <div>
+        <div>
+            <div class="text-4xl font-bold">Sharvesh G</div>
+            <div class="text-xl text-gray-600">Web Developer</div>
+        </div>
+    </div>
+   </div>
+  </section>
+  <section class="px-10 py-4 bg-white">
+    <h2 class="text-2xl font-bold mb-4">
+        About Me
+       </h2>
+       <p class="text-xl">
+        I am a passionate web developer with experience in creating dynamic and responsive websites. My skills include HTML, CSS, JavaScript, and various frameworks. I love to design and build user-friendly interfaces.
+       </p>
+  </section>
+  <!-- Skills Section -->
+  <section class="bg-gray-200 py-12 px-10">
+   <div class="container mx-auto">
+    <h2 class="text-2xl font-bold mb-4">
+     Skills
+    </h2>
+    <ul class="grid grid-cols-2 md:grid-cols-3 gap-4">
+     <li class="bg-white p-4 rounded shadow-lg hover:bg-slate-100 cursor-pointer">
+        <i class="fab fa-html5"></i>
+      HTML
+     </li>
+     <li class="bg-white p-4 rounded shadow-lg hover:bg-slate-100 cursor-pointer">
+        <i class="fab fa-css3"></i>
+      CSS
+     </li>
+     <li class="bg-white p-4 rounded shadow-lg hover:bg-slate-100 cursor-pointer">
+        <i class="fab fa-js"></i>
+      JavaScript
+     </li>
+     <li class="bg-white p-4 rounded shadow-lg hover:bg-slate-100 cursor-pointer">
+        <i class="fab fa-react"></i>
+      React
+     </li>
+     <li class="bg-white p-4 rounded shadow-lg hover:bg-slate-100 cursor-pointer">
+        <i class="fab fa-node"></i>
+      Node.js
+     </li>
+     <li class="bg-white p-4 rounded shadow-lg hover:bg-slate-100 cursor-pointer">
+        <i class="fab fa-tailwind"></i>
+      Tailwind CSS
+     </li>
+    </ul>
+   </div>
+  </section>
+  <!-- Projects Section -->
+  <section class="bg-white py-12 px-10">
+   <div class="container mx-auto">
+    <h2 class="text-2xl font-bold mb-4">
+     Projects
+    </h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+     <div class="bg-gray-100 p-4 rounded shadow">
+      <img alt="Screenshot of Project 1" class="mb-4 rounded h-[400px] object-contain" height="300" src="https://res.cloudinary.com/dz209s6jk/image/upload/v1641566334/Challenges/xbkog35xtcpfw7ygwae9.jpg" width="700"/>
+      <h3 class="text-xl font-bold mb-2">
+       Mutlti Player XO Game
+      </h3>
+      <p class="text-lg">
+        This is MultiPlayer Tic-Tac-Toe game. This Project Build using Next js, Tailwind, Firebase to Storage the Data of the live match using live time database from Firebase. The Player can Create a Room Match or the player can join a room.
+      </p>
+     </div>
+     <div class="bg-gray-100 p-4 rounded shadow">
+      <img alt="Screenshot of Project 2" class="mb-4 rounded w-full" height="300" src="https://images.prismic.io/ultimate-api-challenge/9b9e4f15-03ba-48ec-b2ac-1b3e4010981d_weather-react.jpg?auto=compress,format" width="400"/>
+      <h3 class="text-xl font-bold mb-2">
+        Weather Dashboard with React
+      </h3>
+      <p class="text-lg">
+        This project is a responsive, single-page application developed with React that provides real-time weather updates based on user location or a searched city. It pulls data from a weather API and displays current weather conditions, including temperature, humidity, wind speed, and a five-day forecast.
+      </p>
+     </div>
+     <div class="bg-gray-100 p-4 rounded shadow">
+      <img alt="Screenshot of Project 3" class="mb-4 rounded w-full h-[250px] object-contain" height="300" src="https://therichpost.com/wp-content/uploads/2021/03/Best-Reactjs-Ecommerce-Templates-Free.png" width="400"/>
+      <h3 class="text-xl font-bold mb-2">
+        E-Commerce Platform with React
+      </h3>
+      <p class="text-lg">
+        Project Description: This project is a full-featured e-commerce application developed using React.js and styled with CSS frameworks like Tailwind CSS or Bootstrap.Users can browse through products with detailed views, including images, descriptions, pricing, and ratings.
+      </p>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Resume Section -->
+  <section class="bg-gray-200 py-12 px-10">
+   <div class="container mx-auto ">
+    <h2 class="text-2xl font-bold mb-4">
+     Resume
+    </h2>
+    <div class="flex gap-10">
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/021/453/345/original/4k-stand-out-resume-or-cv-animation-young-smart-businessman-holding-his-resume-or-cv-printed-paper-present-his-working-profile-for-hiring-free-video.jpg" width="500" height="500"/>
+        <div>
+            <div class="text-lg mb-3">Use The Below Button to Download My Resume.</div>
+            <button class="bg-blue-500 px-5 py-2 rounded-md">My Resume</button>
+        </div>
+    </div>
+   </div>
+  </section>
+  <section class="bg-white py-12 px-10 relative">
+    <h2 class="text-2xl font-bold mb-4">
+        Work Experience
+    </h2>
+    <div class="w-full flex flex-col gap-5 items-start justify-center  line">
+        <div class="relative pl-6"> <!-- Added padding to make space for the dot -->
+            <div class="relative">
+                <!-- Before element for the dot -->
+                <div class="before:content-[''] before:absolute before:-left-6 before:top-1/2 before:-translate-y-1/2 before:w-2 before:h-2 before:rounded-full before:bg-blue-900">
+                    <div class="text-xl font-semibold">Google Software Developer Intern</div>
+                    <div>March 1, 2024 -- April 10, 2024</div>
+                </div>
+            </div>
+        </div>
+        <div class="relative pl-6"> <!-- Added padding to make space for the dot -->
+            <div class="relative">
+                <!-- Before element for the dot -->
+                <div class="before:content-[''] before:absolute before:-left-6 before:top-1/2 before:-translate-y-1/2 before:w-2 before:h-2 before:rounded-full before:bg-blue-900">
+                    <div class="text-xl font-semibold">Meta Ui/Uxs Developer Intern</div>
+                    <div>June 2, 2024 -- July 10, 2024</div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+  <!-- Contact Section -->
+  <section class="bg-white py-12 px-10">
+   <div class="container mx-auto">
+    <h2 class="text-2xl font-bold mb-4">
+     Contact
+    </h2>
+    <p class="text-lg mb-4">
+     Feel free to reach out to me via email or phone.
+    </p>
+    <ul>
+     <li class="mb-2">
+      <i class="fas fa-envelope mr-2">
+      </i>
+      gsharvesh6@gmail.com
+     </li>
+     <li>
+      <i class="fas fa-phone mr-2">
+      </i>
+      (123)456-7890
+     </li>
+    </ul>
+   </div>
+  </section>
+  <!-- Footer -->
+  <footer class="bg-blue-600 text-white py-4">
+   <div class="container mx-auto text-center">
+    <p>
+     © 2023 Your Name. All rights reserved.
+    </p>
+   </div>
+  </footer>
+ </body>
+</html>
